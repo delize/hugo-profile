@@ -29,21 +29,34 @@ footer .card-text * {
 }
 
 footer .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--background-color) !important;
     padding: .8em .7em;
     border: 1px solid var(--secondary-color);
+    
+}
+
+footer .card-footer .date {
+    font-size: 0.875rem;
+    color: var(--text-secondary-color);
 }
 
 footer .card-footer a {
-    color: var(--text-link-color) !important;
-    border-color: var(--primary-color) !important;
-    transition: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color) !important;
     background-color: var(--background-color) !important;
+    color: var(--text-link-color) !important;
+    transition: all 0.3s ease;
 }
 
 footer .card-footer a:hover {
-    color: var(--primary-color) !important;
-    opacity: 0.8;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    opacity: 0.9;
 }
 
 footer .card-footer a:focus {
