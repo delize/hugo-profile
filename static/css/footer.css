@@ -35,7 +35,7 @@ footer .card-footer {
     background-color: var(--background-color) !important;
     padding: .8em .7em;
     border: 1px solid var(--secondary-color);
-    
+    cursor: auto;
 }
 
 footer .card-footer .date {
@@ -51,6 +51,7 @@ footer .card-footer a {
     background-color: var(--background-color) !important;
     color: var(--text-link-color) !important;
     transition: all 0.3s ease;
+    cursor: auto;
 }
 
 footer .card-footer a:hover {
@@ -74,4 +75,5 @@ footer .card > .card-header .card-img-top {
     height: 250px !important;
     object-fit: cover;
     background-color: transparent !important;
+    cursor: inherit;
 }
